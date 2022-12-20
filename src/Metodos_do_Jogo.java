@@ -1,5 +1,11 @@
 import java.awt.*;
 import java.awt.event.*;
+import java.util.Random;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 
 
 public class Metodos_do_Jogo implements ActionListener, AtributosEMetodos{
