@@ -4,6 +4,13 @@ import java.awt.event.*;
 
 public class Metodos_do_Jogo implements ActionListener, AtributosEMetodos{
 	
+	Random aleatorio = new Random();
+	JFrame tamanho = new JFrame();
+	JPanel painel_do_titulo = new JPanel();
+	JPanel painel_do_jogo = new JPanel();
+	JLabel titulo_do_jogo = new JLabel();
+	JButton[] botoes = new JButton[9];
+	
 	private boolean vez_do_jogador1;
 	
 	@Override
